@@ -992,6 +992,7 @@ var FLEET_MAX=32, otaBusy=false, lastSys=null;
 
 var POOLS_FALLBACK=[
   {name:'public-pool.io',host:'public-pool.io',port:21496},
+  {name:'BTC PoW Lab',host:'stratum.btcpowlab-pool.com',port:3333},
   {name:'nerdminers.org',host:'pool.nerdminers.org',port:3333},
   {name:'sethforprivacy.com',host:'pool.sethforprivacy.com',port:3333},
   {name:'solomining.de',host:'pool.solomining.de',port:3333},
