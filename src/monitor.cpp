@@ -413,6 +413,7 @@ coin_data getCoinData(unsigned long mElapsed)
 // PoolApiFormat handled in getPoolData()).
 static const PoolDefinition s_pool_registry[] = {
     { "public-pool.io",     "public-pool.io",          21496, "https://public-pool.io:40557/api/client/",    POOL_API_PUBLICPOOL },
+    { "BTC PoW Lab",        "stratum.btcpowlab-pool.com", 3333, "",                                           POOL_API_NONE },
     { "nerdminers.org",     "pool.nerdminers.org",      3333, "https://pool.nerdminers.org/users/",          POOL_API_PUBLICPOOL },
     { "sethforprivacy.com", "pool.sethforprivacy.com",  3333, "https://pool.sethforprivacy.com/api/client/", POOL_API_PUBLICPOOL },
     { "solomining.de",      "pool.solomining.de",       3333, "https://pool.solomining.de/api/client/",      POOL_API_PUBLICPOOL },
